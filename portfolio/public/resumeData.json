@@ -1,0 +1,92 @@
+{
+  "main": {
+    "name": "Chase Blum",
+    "occupation": "Business Intelligence Analytst at Gallup Inc.",
+    "description": "",
+    "image": "profilepic.jpg",
+    "bio": "Who am I? Well, professionally I am Business Intelligence Analyst at Gallup Inc. but personally I am a methodical problem solver who has a hard time taking no for an answer. I love solving large ambigous questions with a high degree of detail and thought. In myself and others I am someone who values intentional actions, a commitment to excellence, and a demeanor that never makes collaboration a chore. In my freetime, I enjoy phsycial fitness, exploring my city, reading and sailing.",
+    "email": "",
+    "phone": "",
+    "address": {
+      "street": "",
+      "city": "Omaha",
+      "state": "Nebraska",
+      "zip": "68102"
+    },
+    "website": "https://chaseblum.com",
+    "resumedownload": "https://drive.google.com/file/d/1tpn8jyW10uRh_fXu4PZAIXCOFsyUwU3I/view",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/chasewpblum/",
+        "className": "fa fa-linkedin"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "University of Nebraska-Lincoln",
+        "degree": "Finance & International Business",
+        "graduated": "May 2022",
+        "description": "Bachelor of Science - International Business Club (President). Big Red Investment Club, UNL Initialize, UNL Thrist Project, UNL Sailing Team (Captian & President), Sigma Chi Fraternity (Vice President)"
+      }
+    ],
+    "work": [
+      {
+        "company": "Gallup Inc.",
+        "title": "Business Intelligence Analyst",
+        "years": "August 2022 - Present",
+        "description": "Support business leaders with data, projections, and recommendations for business strategy."
+      },
+      {
+        "company": " Gallup Inc.",
+        "title": "Associate Financial Analyst",
+        "years": "February 2022 - August 2022",
+        "description": "Compiled and delivered financial reports in ERP system for leadership."
+      },
+      {
+        "company": "Ameritas Life Insurance Corp.",
+        "title": "Project Management Intern",
+        "years": "May 2021 - February 2022",
+        "description": "Project managed an internal software feature release over the course of 6 months."
+      }
+    ],
+    "skills": []
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Client Prospecting Tool",
+        "description": "A business development tool that assesses all public companies and scores them by their financail metrics within their respective industry. Companies with a higher score are then sent over to sales leadership in their respective industry",
+        "category": "Client Prospecting",
+        "tags": "Business Development, Data Analytics, Regression Analysis",
+        "image": "toolIcon.png"
+      },
+      {
+        "title": "Business Territory Calculator",
+        "description": "A dashboard created to view entire business & business opportunity without territory lines. Used to reassess territories and accounts for all outbound sales efforts.",
+        "category": "Territory Assessment",
+        "tags": "Sales Operations, Power Bi, Territory Analysis",
+        "image": "earth.jpg"
+      },
+      {
+        "title": "New Solution Offering Pricing Methodology",
+        "description": "An in depth look into the calculation and rigorous methodology applied when introducing two new products to the market place.",
+        "category": "Product Pricing",
+        "tags": "Competitive Intelligence, Cost Based Pricing, Product Release",
+        "image": "moneyIcon.png"
+      },
+      {
+        "title": "ERP Reporting in FAW, OTBI, & OBIEE",
+        "description": "A look into the type of reporting responsibilities in my role, and the different systems I am familar with.",
+        "category": "Animating the Translation of a Phiastos Disc",
+        "tags": "OBIEE, FAW, Oracle ERP",
+        "image": "growthIcon.jpg"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": []
+  }
+}
