@@ -50,15 +50,21 @@ class Contact extends Component {
         <div className="row section-head">
           <div className="two columns header-col">
             <h1>
-              <span>Get In Touch.</span>
+              <a
+                href="https://www.linkedin.com/in/ayyahsaleh/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="icon"></span>
+              </a>
             </h1>
           </div>
 
           <div className="ten columns">
             <p className="lead">
               {" "}
-              Please feel free to reach out if you want to talk about
-              professional development, finance, life, or anything in between.
+              Please feel free to reach out if you want to talk about law,
+              professional development, life, or anything in between.
             </p>
           </div>
         </div>

@@ -1,34 +1,28 @@
-import React, { Component } from 'react';
-import $ from 'jquery';
-import './App.css';
-import Header from './Components/Header';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Portfolio from './Components/Portfolio';
-import Contact from './Components/Contact';
-import Footer from './Components/Footer';
-import {main,portfolio,resume} from '../public/resumeData'
-
+import React, { Component } from "react";
+import $ from "jquery";
+import "./App.css";
+import Header from "./Components/Header";
+import About from "./Components/About";
+import Resume from "./Components/Resume";
+import Portfolio from "./Components/Portfolio";
+import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
+import { main, portfolio, resume } from "../public/resumeData";
 
 class App extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
 
     this.state = {
-      
-      resumeData:{
+      resumeData: {
         main: main,
         portfolio: portfolio,
         resume: resume,
-      }
-    }
+      },
+    };
   }
 
-
-
-
   render() {
-    console.log(main);
     return (
       <div className="App">
         <Header data={main} />
