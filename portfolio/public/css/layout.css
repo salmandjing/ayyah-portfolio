@@ -625,6 +625,29 @@ ul#nav li.current a { color: #8bc34a; }
    margin-top: 10px;
  }
 
+ /* Portfolio item hover effects */
+.portfolio-item .item-wrap:hover .portfolio-item-title,
+.portfolio-item .item-wrap:hover .portfolio-item-category {
+  color: #d2ed09; /* Change this to your preferred shade of green */
+  transition: color 0.3s ease;
+}
+
+/* Ensure the text is visible against the overlay */
+.portfolio-item .overlay {
+  background: rgba(0, 0, 0, 0.8); /* Darkens the overlay for better text visibility */
+}
+
+.portfolio-item .portfolio-item-meta h5,
+.portfolio-item .portfolio-item-meta p {
+  color: #fff; /* Ensures text is white by default */
+}
+
+/* Optional: Add a subtle transform effect on hover */
+.portfolio-item .item-wrap:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
+
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */

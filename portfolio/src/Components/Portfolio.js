@@ -29,8 +29,10 @@ class Portfolio extends Component {
               <img alt={project.title} src={imageUrl} />
               <div className="overlay">
                 <div className="portfolio-item-meta">
-                  <h5>{project.title}</h5>
-                  <p className="display-linebreak">{project.category}</p>
+                  <h5 className="portfolio-item-title">{project.title}</h5>
+                  <p className="portfolio-item-category display-linebreak">
+                    {project.category}
+                  </p>
                 </div>
               </div>
             </div>
