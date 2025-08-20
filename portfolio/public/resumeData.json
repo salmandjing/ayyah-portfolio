@@ -58,7 +58,28 @@
         "description": "Drafted and submitted federal and state grant applications. Project Management for immigrant advocacy networks. Founded Interstate Immigrant Outreach Initiatives"
       }
     ],
-    "skills": []
+    "skills": [
+      {
+        "name": "Legal Research",
+        "level": "90%"
+      },
+      {
+        "name": "Client Advocacy",
+        "level": "85%"
+      },
+      {
+        "name": "Multilingual Communication",
+        "level": "95%"
+      },
+      {
+        "name": "Case Management",
+        "level": "80%"
+      },
+      {
+        "name": "Legal Writing",
+        "level": "85%"
+      }
+    ]
   },
   "portfolio": {
     "projects": [

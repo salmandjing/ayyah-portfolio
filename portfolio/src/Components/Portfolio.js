@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import Modal from "./Modal"; // We'll create this component next
+import React, { Component, useEffect } from "react";
+import Modal from "./Modal";
 
 class Portfolio extends Component {
   constructor(props) {
@@ -20,19 +20,22 @@ class Portfolio extends Component {
   render() {
     if (!this.props.data) return null;
 
-    const portfolio = this.props.data.projects.map((project) => {
+    const portfolio = this.props.data.projects.map((project, index) => {
       const imageUrl = "images/portfolio/" + project.image;
       return (
-        <div key={project.title} className="columns portfolio-item">
+        <div key={project.title} className="columns portfolio-item" data-aos="fade-up" data-aos-delay={`${index * 100}`}>
           <div className="item-wrap">
-            <div onClick={() => this.openModal(project)}>
-              <img alt={project.title} src={imageUrl} />
+            <div onClick={() => this.openModal(project)} className="portfolio-card">
+              <div className="portfolio-image">
+                <img alt={project.title} src={imageUrl} />
+              </div>
               <div className="overlay">
                 <div className="portfolio-item-meta">
                   <h5 className="portfolio-item-title">{project.title}</h5>
                   <p className="portfolio-item-category display-linebreak">
                     {project.category}
                   </p>
+                  <span className="view-project">View Project</span>
                 </div>
               </div>
             </div>
@@ -42,10 +45,15 @@ class Portfolio extends Component {
     });
 
     return (
-      <section id="portfolio">
+      <section id="portfolio" className="portfolio-section">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Here are some of my ongoing projects</h1>
+            <h1 className="section-title" data-aos="fade-up">
+Ongoing Legal Projects
+            </h1>
+            <div className="portfolio-intro" data-aos="fade-up" data-aos-delay="200">
+              <p>Explore my current legal research and advocacy projects</p>
+            </div>
             <div
               id="portfolio-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"

@@ -38,23 +38,35 @@ class Resume extends Component {
       <section id="resume">
       <div className="row education">
          <div className="three columns header-col">
-            <h1><span>Education</span></h1>
+            <h1 data-aos="fade-right"><span>Education</span></h1>
+            <div className="legal-icon-container" data-aos="fade-up" data-aos-delay="200">
+              <i className="legal-icon fas fa-university"></i>
+            </div>
          </div>
 
          <div className="nine columns main-col">
-            {education}
+            <div data-aos="fade-left" data-aos-delay="300">
+              {education}
+            </div>
          </div>
       </div>
 
       <div className="row work">
          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1 data-aos="fade-right"><span>Work</span></h1>
+            <div className="legal-icon-container" data-aos="fade-up" data-aos-delay="200">
+              <i className="legal-icon fas fa-balance-scale"></i>
+            </div>
          </div>
 
          <div className="nine columns main-col">
-          {work}
+          <div data-aos="fade-left" data-aos-delay="300">
+            {work}
+          </div>
          </div>
       </div>
+
+      {/* Skills section removed */}
    </section>
     );
   }

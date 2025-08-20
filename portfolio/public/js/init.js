@@ -16,7 +16,7 @@
 
 
 /*----------------------------------------------------*/
-/* Smooth Scrolling
+/* Enhanced Smooth Scrolling with Easing
 ------------------------------------------------------ */
 
    $('.smoothscroll').on('click',function (e) {
@@ -27,10 +27,25 @@
 
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
-	    }, 800, 'swing', function () {
+	    }, 1200, 'easeInOutExpo', function () {
 	        window.location.hash = target;
+            
+            // Add focus animation to section
+            $(target).addClass('section-focus').delay(1000).queue(function(){
+                $(this).removeClass('section-focus').dequeue();
+            });
 	    });
 	});
+    
+    // jQuery easing function for smooth scrolling
+    jQuery.extend(jQuery.easing, {
+        easeInOutExpo: function (x, t, b, c, d) {
+            if (t==0) return b;
+            if (t==d) return b+c;
+            if ((t/=d/2) < 1) return c/2 * Math.pow(2, 10 * (t - 1)) + b;
+            return c/2 * (-Math.pow(2, -10 * --t) + 2) + b;
+        }
+    });
 
 
 /*----------------------------------------------------*/
@@ -74,7 +89,7 @@
 
 
 /*----------------------------------------------------*/
-/*	Fade In/Out Primary Navigation
+/*	Sticky Navigation and Fade In/Out Primary Navigation
 ------------------------------------------------------*/
 
    $(window).on('scroll', function() {
@@ -83,6 +98,14 @@
 		var y = $(window).scrollTop();
       var nav = $('#nav-wrap');
 
+      // Add sticky class when scrolled down
+      if (y > h * 0.1) {
+         nav.addClass('sticky');
+      } else {
+         nav.removeClass('sticky');
+      }
+
+      // Original fade behavior
 	   if ( (y > h*.20) && (y < h) && ($(window).outerWidth() > 768 ) ) {
 	      nav.fadeOut('fast');
 	   }

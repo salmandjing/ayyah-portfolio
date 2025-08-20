@@ -18,15 +18,22 @@ class About extends Component {
     return (
       <section id="about">
         <div className="row">
-          <div className="three columns">
+          <div className="three columns" data-aos="fade-right">
             <img className="profile-pic" src={image} alt="" />
           </div>
-          <div className="nine columns main-col">
-            <h2>About Me</h2>
-            <p>{bio}</p>
+          <div className="nine columns main-col" data-aos="fade-left" data-aos-delay="300">
+            <h2 data-aos="fade-up">About Me</h2>
+            <div className="bio-text" data-aos="fade-up" data-aos-delay="400">
+              <p>{bio.split('. ').map((sentence, index, array) => 
+                index < array.length - 1 ? 
+                  <span key={index}>{sentence}. <br/></span> : 
+                  <span key={index}>{sentence}</span>
+              )}
+              </p>
+            </div>
             <div className="row">
               <div className="columns contact-details"></div>
-              <div className="columns download">
+              <div className="columns download" data-aos="zoom-in" data-aos-delay="600">
                 <p>
                   <a
                     href={resumeDownload}
