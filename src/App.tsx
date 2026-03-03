@@ -97,7 +97,7 @@ function App() {
           </div>
           <div className="hero-photo">
             <img
-              src="/images/profilepic.jpg"
+              src={`${import.meta.env.BASE_URL}images/profilepic.jpg`}
               alt={main.name}
             />
           </div>
@@ -127,7 +127,7 @@ function App() {
               </div>
               <div className="about-highlight-card fade-in">
                 <h4>Dow Jones &amp; FlexAI</h4>
-                <p>Legal internships at Dow Jones and FlexAI, contributing to privacy compliance and regulatory research in tech and media.</p>
+                <p>Legal internships at Dow Jones and FlexAI, supporting privacy compliance research and regulatory analysis under attorney supervision.</p>
               </div>
               <div className="about-highlight-card fade-in">
                 <h4>AI Safety Coursework</h4>
@@ -193,7 +193,7 @@ function App() {
               <div key={project.title} className="project-card fade-in">
                 <img
                   className="project-image"
-                  src={`/images/portfolio/${project.image}`}
+                  src={`${import.meta.env.BASE_URL}images/portfolio/${project.image}`}
                   alt={project.title}
                 />
                 <div className="project-body">

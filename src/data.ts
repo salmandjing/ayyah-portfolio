@@ -6,7 +6,7 @@ export const resumeData: ResumeData = {
     occupation: "CIPP-US | J.D. Candidate | Data Privacy, IP & Emerging Tech Law",
     description: "",
     image: "profilepic.jpg",
-    bio: "Currently pursuing a Juris Doctor at The George Washington University Law School, with a CIPP/US certification and coursework in AI safety, ethics, and society. Extensive experience includes legal internships at Dow Jones and FlexAI, contributing to privacy compliance and regulatory research. Previous roles as Law and Billing Clerk at Crimmigration Inc and Grant Manager at a National Civil Rights Nonprofit honed skills in legal documentation, client relations, and grant management. Proficient in LexisNexis, CCPA, and HIPAA, with fluency in Arabic and Spanish.",
+    bio: "J.D. candidate at The George Washington University Law School with a CIPP/US certification and coursework in AI safety, ethics, and society. Background includes legal internships at Dow Jones and FlexAI, where she supported privacy compliance research and regulatory analysis under attorney supervision. Prior to law school, she worked four years as a paralegal and billing clerk at Crimmigration Inc, managing billing for 600+ clients and preparing immigration filings, and served as Grant Manager at a national civil rights nonprofit, drafting federal and state grant applications. Proficient in LexisNexis, CCPA, and HIPAA, with fluency in Arabic and Spanish.",
     email: "",
     phone: "",
     address: {
@@ -69,7 +69,7 @@ export const resumeData: ResumeData = {
         company: "FlexAI",
         title: "Legal Intern",
         years: "October 2024 - May 2025",
-        description: "Contributing to privacy compliance and regulatory research over an 8-month internship.",
+        description: "Supported privacy compliance research and regulatory analysis under attorney supervision over an 8-month internship.",
       },
       {
         company: "Hightower, Stratton, Novigrod & Kantor",
