@@ -27,6 +27,7 @@ export interface MainData {
 
 export interface Education {
   school: string
+  note?: string
   degree: string
   graduated: string
   description: string
