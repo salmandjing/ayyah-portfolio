@@ -6,7 +6,7 @@ export const resumeData: ResumeData = {
     occupation: "CIPP-US | J.D. Candidate | Data Privacy, IP & Emerging Tech Law",
     description: "",
     image: "profilepic.jpg",
-    bio: "J.D. candidate at The George Washington University Law School with a CIPP/US certification and coursework in AI safety, ethics, and society. Background includes legal internships at Dow Jones and FlexAI, where she supported privacy compliance research and regulatory analysis under attorney supervision. Prior to law school, she worked four years as a paralegal and billing clerk at Crimmigration Inc, managing billing for 600+ clients and preparing immigration filings, and served as Grant Manager at a national civil rights nonprofit, drafting federal and state grant applications. Proficient in LexisNexis, CCPA, and HIPAA, with fluency in Arabic and Spanish.",
+    bio: "J.D. candidate at the University of Nebraska-Lincoln College of Law, currently completing a visiting semester at The George Washington University Law School, with a CIPP/US certification and coursework in AI safety, ethics, and society. Background includes legal internships at Dow Jones and FlexAI, where she supported privacy compliance research and regulatory analysis under attorney supervision. Prior to law school, she worked four years as a paralegal and billing clerk at Crimmigration Inc, managing billing for 600+ clients and preparing immigration filings, and served as Grant Manager at a national civil rights nonprofit, drafting federal and state grant applications. Proficient in LexisNexis, CCPA, and HIPAA, with fluency in Arabic and Spanish.",
     email: "",
     phone: "",
     address: {
@@ -29,6 +29,7 @@ export const resumeData: ResumeData = {
     education: [
       {
         school: "The George Washington University Law School",
+      note: "Visiting Scholar, Spring 2026",
         degree: "Juris Doctor (JD)",
         graduated: "January 2026 - May 2026",
         description: "Data Privacy, IP, and Emerging Tech Law focus",
