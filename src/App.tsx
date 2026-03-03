@@ -13,12 +13,12 @@ const NAV_ITEMS = [
 ]
 
 const SKILLS = [
-  { icon: '\u2696\ufe0f', name: 'Legal Research', detail: 'Westlaw, LexisNexis, case analysis' },
+  { icon: '\ud83d\udd12', name: 'Data Privacy', detail: 'CCPA, HIPAA, privacy compliance' },
+  { icon: '\ud83e\udd16', name: 'AI Safety & Ethics', detail: 'AI governance, emerging tech regulation' },
+  { icon: '\ud83d\udcdc', name: 'IP Law', detail: 'Intellectual property, securities policy' },
+  { icon: '\u2696\ufe0f', name: 'Legal Research', detail: 'LexisNexis, legal writing, case analysis' },
   { icon: '\ud83c\udf10', name: 'Multilingual', detail: 'Arabic, Spanish, Dari, Farsi' },
-  { icon: '\ud83d\udcdc', name: 'Immigration Law', detail: 'USCIS petitions, FOIA requests, adjustments of status' },
-  { icon: '\ud83d\udcbc', name: 'Corporate Litigation', detail: 'Document review, tort defense, case strategy' },
-  { icon: '\ud83c\udfaf', name: 'Grant Management', detail: 'Federal & state applications, project management' },
-  { icon: '\ud83d\udde3\ufe0f', name: 'Oral Advocacy', detail: 'Moot court, debate champion, client advocacy' },
+  { icon: '\ud83d\udcbc', name: 'Legal Operations', detail: 'Client management, billing, grant administration' },
 ]
 
 function App() {
@@ -71,10 +71,10 @@ function App() {
       <section className="hero" id="hero">
         <div className="hero-content">
           <div className="hero-text">
-            <span className="hero-label">University of Nebraska-Lincoln College of Law</span>
+            <span className="hero-label">The George Washington University Law School</span>
             <h1 className="hero-name">{main.name}</h1>
             <p className="hero-title">
-              J.D. Candidate &middot; Henry Foster Scholar &middot; Multilingual Advocate
+              CIPP-US &middot; J.D. Candidate &middot; Data Privacy, IP &amp; Emerging Tech Law
             </p>
             <div className="hero-actions">
               <a
@@ -122,16 +122,16 @@ function App() {
             </div>
             <div className="about-highlights">
               <div className="about-highlight-card fade-in">
-                <h4>Henry Foster Scholar</h4>
-                <p>Prestigious scholarship recipient at UNL College of Law, recognizing academic excellence and commitment to the legal profession.</p>
+                <h4>CIPP/US Certified</h4>
+                <p>Certified Information Privacy Professional (CIPP/US), demonstrating expertise in U.S. data privacy laws and regulations.</p>
               </div>
               <div className="about-highlight-card fade-in">
-                <h4>Four Languages</h4>
-                <p>Fluent in Arabic, Spanish, Dari, and Farsi — enabling direct client communication across diverse communities.</p>
+                <h4>Dow Jones &amp; FlexAI</h4>
+                <p>Legal internships at Dow Jones and FlexAI, contributing to privacy compliance and regulatory research in tech and media.</p>
               </div>
               <div className="about-highlight-card fade-in">
-                <h4>Debate Champion</h4>
-                <p>Former Debate Team Captain and Champion at CSU Sacramento, bringing sharp advocacy and persuasive skills to the courtroom.</p>
+                <h4>AI Safety Coursework</h4>
+                <p>Completed AI Safety, Ethics, and Society coursework at the Center for AI Safety, bridging law and emerging technology.</p>
               </div>
             </div>
           </div>
