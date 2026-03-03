@@ -71,7 +71,7 @@ function App() {
       <section className="hero" id="hero">
         <div className="hero-content">
           <div className="hero-text">
-            <span className="hero-label">The George Washington University Law School</span>
+            <span className="hero-label">J.D. Candidate · University of Nebraska-Lincoln College of Law</span>
             <h1 className="hero-name">{main.name}</h1>
             <p className="hero-title">
               CIPP-US &middot; J.D. Candidate &middot; Data Privacy, IP &amp; Emerging Tech Law
